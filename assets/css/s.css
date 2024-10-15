@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(104, 104, 207);
+}
+.header-r h1{
+        text-align: center;
+        font-size: 50px;
+        text-shadow: 2px 4px rgb(221, 170, 170);
+}
+
+.main-container {
+    max-width: 1000px;
+    /* background-color: grey; */
+    /* margin: auto; */
+    /* height: auto ; */
+    /* position: relative; */
+}
+
+.main-container .box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position:absolute;
+    top: 300px;
+    left: 200px;
+    box-shadow: 10px 10px rgb(90, 90, 89);
+    
+}
+
+.main-container .box img{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    top: 40px;
+}
+ 
+.main-container .box-w {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position:absolute;
+    bottom: 150px;
+    right: 200px;
+    box-shadow: 10px 10px rgb(180, 180, 18);
+    
+}
+
+.main-container .box-w img{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.main-container .box-k {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position:absolute;
+    top: 300px;
+    right: 200px;
+    box-shadow: 10px 10px rgb(158, 158, 156);
+    border-radius: 40px solid;
+    
+}
+
+.main-container .box-k img{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 40px solid;
+}
+
+.main-container .box-f {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position:absolute;
+    /* top: 30px; */
+    bottom: 156px;
+    left: 200px;
+    box-shadow: 10px 10px rgba(243, 238, 166, 0.849);
+    
+}
+
+.main-container .box-f img{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+
+.main-container section img {
+        width: 100%;  
+        margin: auto;   
+}
+
+.main-container section {
+            padding: 30px;
+}
+
+
+.navbar ul li .vr{
+    color: rgba(235, 14, 14, 0.692); 
+    width: 30px; 
+}
+
+
+.navbar ul li .facebook {
+    color: rgb(0, 89, 255);
+    width: 30px;
+}
+
+.navbar ul li .whatsapp {
+    color: rgb(4, 241, 4);
+    width: 30px;
+}
+
+.navbar ul li .phone {
+    color: rgb(27, 27, 192);
+    width: 30px;
+    padding: 5px;
+
+}
+.navbar{
+    text-align: center;
+   margin-top: 150px;
+}
